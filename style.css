@@ -180,11 +180,11 @@ section .title::after{
     
 }
 .home .max-width{
-  width: 100%;
-  display: flex;
+    width: 100%;
+    display: flex;
 }
 .home .max-width .row{
-  margin-right: 0;
+    margin-right: 0;
 }
 .home .home-content .text-1{
     font-size: 27px;
@@ -449,7 +449,7 @@ footer span a:hover{
         font-size: 25px;
     }
     .home .home-content .text-2{
-        font-size: 70px;
+        font-size: 65px;
     }
     .home .home-content .text-3{
         font-size: 35px;
@@ -473,8 +473,15 @@ footer span a:hover{
         flex: 100%;
     }
     .services .serv-content .card{
-        width: calc(50% - 10px);
+        width: calc(100% - 10px);
         margin-bottom: 20px;
+    }
+    .services .title::before {
+        display: none;
+    }
+    .services .title::after {
+        width: 150px;
+        top: 85px;
     }
     .skills .skills-content .column,
     .contact .contact-content .column{
